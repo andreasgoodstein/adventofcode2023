@@ -1,5 +1,5 @@
 const DIGITS: [&str; 9] = [
-    "one", "two", "three", "four", "five", "six", "seven", "eighth", "nine",
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
 ];
 
 pub fn solve1(input: Vec<String>) {
