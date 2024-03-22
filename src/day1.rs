@@ -1,14 +1,6 @@
-const ONE: &str = "one";
-const TWO: &str = "two";
-const THREE: &str = "three";
-const FOUR: &str = "four";
-const FIVE: &str = "five";
-const SIX: &str = "six";
-const SEVEN: &str = "seven";
-const EIGHT: &str = "eight";
-const NINE: &str = "nine";
-
-const DIGITS: [&str; 9] = [ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE];
+const DIGITS: [&str; 9] = [
+    "one", "two", "three", "four", "five", "six", "seven", "eighth", "nine",
+];
 
 pub fn solve1(input: Vec<String>) {
     let mut sum: usize = 0;
