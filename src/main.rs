@@ -1,13 +1,14 @@
 mod day1;
+mod day2;
 
 use std::fs::read_to_string;
 use std::time::Instant;
 
 fn main() {
-    let input = read_lines("./src/puzzles/puzzle1.txt");
+    let input = read_lines("./src/examples/example2.txt");
 
     let now = Instant::now();
-    day1::solve2(input);
+    day2::solve1(input);
     let end = now.elapsed();
 
     println!("{:.2?}", end)
