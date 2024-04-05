@@ -7,10 +7,10 @@ use std::fs::read_to_string;
 use std::time::Instant;
 
 fn main() {
-    let input = read_lines("./src/inputs/example4.txt");
+    let input = read_lines("./src/inputs/puzzle4.txt");
 
     let now = Instant::now();
-    day4::solve1(input);
+    day4::solve2(input);
     let end = now.elapsed();
 
     println!("{:.2?}", end)
