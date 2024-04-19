@@ -11,7 +11,7 @@ fn main() {
     let input = read_lines("./src/inputs/puzzle5.txt");
 
     let now = Instant::now();
-    day5::solve1(input);
+    day5::solve2(input);
     let end = now.elapsed();
 
     println!("{:.2?}", end)
